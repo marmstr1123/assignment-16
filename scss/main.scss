@@ -1,0 +1,45 @@
+@import "./imports/_normalize.scss";
+
+*{ box-sizing: border-box }
+img {
+   width: 100%;
+   display: block;
+}
+body {
+   background-color: #262626;
+}
+
+#app-container{
+   .theWho{
+      color:#FFF;
+      padding-top: 20px;
+      padding-left: 50px;
+      font-family: helvetica;
+      font-size: 6rem;
+   }
+   .thumbnail:hover{
+      background-color: rgba(87,24,22,0.5);
+      text-decoration: none;
+   }
+   .thumbnail{
+      background-color: #262626;
+      border: none;
+      text-align: center;
+      text-decoration: none;
+      color: #FFF;
+   }
+
+   //users page===================================
+   // .container{
+   //    background: url("../images/surfer-chich.jpg") center center no-repeat;
+   // }
+   .homebutton{
+      text-align: right;
+      padding-top: 20px;
+      padding-right: 10px;
+   }
+   .nameGreeting{
+      color:#FFF;
+   }
+
+}
