@@ -381,14 +381,15 @@ body {
   font-family: helvetica;
   font-size: 6rem; }
 #app-container .thumbnail:hover {
-  background-color: rgba(87, 24, 22, 0.5);
+  background: radial-gradient(closest-side at 50% 50%, #D91E18 10%, transparent 85%);
   text-decoration: none; }
 #app-container .thumbnail {
   background-color: #262626;
   border: none;
   text-align: center;
   text-decoration: none;
-  color: #FFF; }
+  color: #FFF;
+  width: 80%; }
 #app-container .homebutton {
   text-align: right;
   padding-top: 20px;

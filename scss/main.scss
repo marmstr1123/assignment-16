@@ -18,7 +18,7 @@ body {
       font-size: 6rem;
    }
    .thumbnail:hover{
-      background-color: rgba(87,24,22,0.5);
+       background: radial-gradient(closest-side at 50% 50%, #D91E18  10%,rgba(0, 0, 0, 0) 85%);
       text-decoration: none;
    }
    .thumbnail{
@@ -27,6 +27,7 @@ body {
       text-align: center;
       text-decoration: none;
       color: #FFF;
+      width: 80%;
    }
 
    //users page===================================
